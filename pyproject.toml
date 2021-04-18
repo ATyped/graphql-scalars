@@ -17,6 +17,15 @@ mypy = "^0.812"
 pre-commit = "^2.12.1"
 commitizen = "^2.17.2"
 
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+version_files = [
+    "pyproject.toml:version",
+    "graphql_scalars/__init__.py:__version__"
+]
+tag_format = "v$version"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
