@@ -1,4 +1,4 @@
-__version__ = '0.1.0'
+__version__ = '0.2.0'
 
 from graphql_scalars import scalars
 from graphql_scalars.scalars import GraphQLDateTime, GraphQLJSON, GraphQLTimestamp, GraphQLVoid
