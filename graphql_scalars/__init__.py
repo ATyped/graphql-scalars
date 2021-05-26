@@ -1,8 +1,8 @@
 __version__ = '0.1.0'
 
 from graphql_scalars import scalars
-from graphql_scalars.scalars import GraphQLDateTime, GraphQLVoid
+from graphql_scalars.scalars import GraphQLDateTime, GraphQLTimestamp, GraphQLVoid
 
-all_scalars_defs = [GraphQLDateTime, GraphQLVoid]
+all_scalars_defs = [GraphQLDateTime, GraphQLVoid, GraphQLTimestamp]
 
 __all__ = ['scalars', 'all_scalars_defs']
