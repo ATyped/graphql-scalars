@@ -30,6 +30,11 @@ repos:
         language: system
         types: [python]
 
+  - repo: https://github.com/pycqa/flake8
+    rev: 3.9.2
+    hooks:
+      - id: flake8
+
   - repo: local
     hooks:
       - id: mypy
@@ -43,9 +48,19 @@ repos:
     hooks:
       - id: bandit
         args: [-f, custom, -q]
+        exclude: 'tests/'
 
   - repo: https://github.com/commitizen-tools/commitizen
     rev: v2.17.6
     hooks:
       - id: commitizen
         stages: [commit-msg]
+
+  - repo: local
+    hooks:
+      - id: pytest
+        name: pytest
+        entry: pytest -v --cov=graphql_scalars --cov-report term-missing
+        language: system
+        pass_filenames: false
+        verbose: true
