@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.4.0
+    rev: v4.0.1
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -18,7 +18,7 @@ repos:
       - id: isort
 
   - repo: https://github.com/ambv/black
-    rev: 20.8b1
+    rev: 21.5b1
     hooks:
       - id: black
 
@@ -45,7 +45,7 @@ repos:
         args: [-f, custom, -q]
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v2.17.2
+    rev: v2.17.6
     hooks:
       - id: commitizen
         stages: [commit-msg]
