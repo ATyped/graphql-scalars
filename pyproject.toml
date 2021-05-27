@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "graphql_scalars"
-version = "0.2.1"
+version = "0.2.2"
 description = ""
 authors = ["iyanging <iyanging@163.com>"]
 
@@ -50,7 +50,7 @@ combine_as_imports = true
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.2.1"
+version = "0.2.2"
 version_files = [
     "pyproject.toml:version",
     "graphql_scalars/__init__.py:__version__"
