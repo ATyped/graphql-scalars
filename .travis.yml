@@ -4,7 +4,8 @@ python:
 
 cache:
   directories:
-    - "$HOME/.cache/pre-commit"
+    - $HOME/.cache/pip
+    - $HOME/.cache/pre-commit
 
 before_install:
   - pip install -U pip wheel
@@ -16,3 +17,4 @@ install:
 script:
   - poetry run pre-commit install --install-hooks
   - poetry run pre-commit run --all
+  - poetry build
