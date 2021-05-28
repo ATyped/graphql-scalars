@@ -4,10 +4,10 @@
 
 > Great appreciation to [Urigo/graphql-scalars](https://github.com/Urigo/graphql-scalars)
 
-![PyPI](https://img.shields.io/pypi/v/graphql_scalars)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/graphql_scalars)
-![PyPI - Implementation](https://img.shields.io/pypi/implementation/graphql_scalars)
-![PyPI - License](https://img.shields.io/pypi/l/graphql_scalars)
+![PyPI](https://img.shields.io/pypi/v/graphql-scalars)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/graphql-scalars)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/graphql-scalars)
+![PyPI - License](https://img.shields.io/pypi/l/graphql-scalars)
 
 [![Build Status](https://travis-ci.com/ATyped/graphql-scalars.svg?branch=master)](https://travis-ci.com/ATyped/graphql-scalars)
 [![codecov](https://codecov.io/gh/ATyped/graphql-scalars/branch/master/graph/badge.svg?token=BKHR0I84GK)](https://codecov.io/gh/ATyped/graphql-scalars)
