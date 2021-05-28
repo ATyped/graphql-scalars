@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "graphql_scalars"
-version = "0.2.3"
+version = "0.2.4"
 description = "A library of custom GraphQL scalar types for creating precise type-safe GraphQL schemas."
 license = "MIT"
 readme = "README.md"
@@ -51,7 +51,7 @@ combine_as_imports = true
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.2.3"
+version = "0.2.4"
 version_files = [
     "pyproject.toml:version",
     "graphql_scalars/__init__.py:__version__"
