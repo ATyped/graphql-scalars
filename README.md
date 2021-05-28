@@ -9,11 +9,10 @@
 ![PyPI - Implementation](https://img.shields.io/pypi/implementation/graphql-scalars)
 ![PyPI - License](https://img.shields.io/pypi/l/graphql-scalars)
 
-[![Build Status](https://travis-ci.com/ATyped/graphql-scalars.svg?branch=master)](https://travis-ci.com/ATyped/graphql-scalars)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ATyped/graphql-scalars/post-commit)
 [![codecov](https://codecov.io/gh/ATyped/graphql-scalars/branch/master/graph/badge.svg?token=BKHR0I84GK)](https://codecov.io/gh/ATyped/graphql-scalars)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/ATyped/graphql-scalars.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ATyped/graphql-scalars/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ATyped/graphql-scalars.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ATyped/graphql-scalars/context:python)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/953ed7af1f1849aab25c0e036f7f42d9)](https://www.codacy.com/gh/ATyped/graphql-scalars/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ATyped/graphql-scalars&amp;utm_campaign=Badge_Grade)
 
 ## Getting Started
 
